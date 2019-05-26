@@ -32,7 +32,7 @@ package: build
 
 .PHONY: tag
 tag:
-	@ if [ $$(git status -s -uall | wc -l) != 0 ]; then echo 'ERROR: Git workspace must be clean.'; exit 1; fi;
+	@ if [ $$(git status -s -uall | wc -l) != 1 ]; then echo 'ERROR: Git workspace must be clean.'; exit 1; fi;
 
 	@echo "This release will be tagged as: $$(cat ./VERSION)"
 	@echo "This version should match your release. If it doesn't, re-run 'make version'."
