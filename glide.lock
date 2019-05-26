@@ -1,0 +1,20 @@
+hash: 84f0685dccae014c18b5b1bf064dd0b1e7d8230b24bcfd1217dde3fdf2a2b62e
+updated: 2019-05-26T12:18:57.583866-07:00
+imports:
+- name: github.com/davecgh/go-spew
+  version: 8991bc29aa16c548c550c7ff78260e27b9ab7c73
+  subpackages:
+  - spew
+- name: github.com/moul/http2curl
+  version: e4e02a27abe7e3d0352874f6c0b92581c5d5a6f7
+- name: github.com/parnurzeal/gorequest
+  version: a578a48e8d6ca8b01a3b18314c43c6716bb5f5a3
+- name: github.com/pkg/errors
+  version: 27936f6d90f9c8e1145f11ed52ffffbfdb9e0af7
+- name: golang.org/x/net
+  version: f3200d17e092c607f615320ecaad13d87ad9a2b3
+  subpackages:
+  - publicsuffix
+- name: gopkg.in/alecthomas/gometalinter.v2
+  version: 102ac984005d45456a7e3ae6dc94ebcd95c2bb19
+testImports: []
